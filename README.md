@@ -1,3 +1,5 @@
+# Image-to-Image App
+
 ---
 title: Stable Diffusion Image Variations
 emoji: 🖼️
