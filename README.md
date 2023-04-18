@@ -1,5 +1,5 @@
 # Image-to-Image App
 
-Using Stable-Diffusion
+Using Stable-Diffusion, Available on HuggingFace as well
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
