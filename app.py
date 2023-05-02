@@ -86,7 +86,7 @@ examples = [
 demo = gr.Interface(
     fn=main,
     theme=gr.themes.Soft(primary_hue="blue", secondary_hue="blue"),
-    title="VM8 IMG2IMG",
+    title="0xpako's Image Stable Diffuser",
     description=description,
     article=article,
     inputs=inputs,
