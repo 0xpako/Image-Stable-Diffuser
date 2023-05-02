@@ -1,4 +1,4 @@
-# Image-to-Image App
+# Image Stable Diffuser App
 
 Using Stable-Diffusion, Available on HuggingFace as well
 
