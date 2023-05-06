@@ -47,15 +47,12 @@ def main(
 description = \
 """
 __Welcome to Image to Image Stable Diffuser by Pako__
-
 Generate variations on an input image using a fine-tuned version of Stable Diffusion.
-
 """
 
 article = \
 """
 ## How does this work?
-
 The normal Stable Diffusion model is trained to be conditioned on text input. This version has had the original text encoder (from CLIP) removed, and replaced with
 the CLIP _image_ encoder instead. So instead of generating images based a text input, images are generated to match CLIP's embedding of the image.
 This creates images which have the same rough style and content, but different details, in particular the composition is generally quite different.
@@ -85,7 +82,7 @@ examples = [
 
 demo = gr.Interface(
     fn=main,
-    theme=gr.themes.Soft(primary_hue="blue", secondary_hue="blue"),
+    theme=gr.themes.Soft(primary_hue="orange", secondary_hue="orange"),
     title="0xpako's Image Stable Diffuser",
     description=description,
     article=article,
